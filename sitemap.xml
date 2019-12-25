@@ -20,6 +20,8 @@ layout: null
         {% endif %}
        </url>
     {% endif %}
+    {% if page.comments %}
+    {% endif %}
   {% endfor %}
   {% for post in site.posts %}
     <url>
