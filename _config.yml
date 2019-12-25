@@ -137,7 +137,7 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/aks.png"
-    date: "January 2018 - Today"
+    date: "January 2018 - Present"
     description: "Information Security Consultant @ AKS IT SERVICES, Worked on 100+ Web and mobile application vulnerability assessments."
   - image: "/img/timeline/annauniv.png"
     date: "July 2013 - May 2017"
