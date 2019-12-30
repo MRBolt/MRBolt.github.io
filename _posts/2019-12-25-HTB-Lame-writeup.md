@@ -4,7 +4,7 @@ comments: true
 section-type: post
 title: HackTheBox Write-up - Lame
 category: hackthebox
-tags: [ 'samba' ]
+tags: [ 'samba', 'oscp-Like-machine' ]
 ---
 
 **DIGEST**
@@ -73,7 +73,7 @@ An initial Nmap scan result will show us a vulnerable samba service which is run
 
 **Tools Used:**
 
->Nmap, Searchsploit, Metsaploit
+> Nmap, Searchsploit, Metsaploit
 
 
 **Initial Scan with Nmap:**
