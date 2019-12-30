@@ -17,7 +17,7 @@ baseurl: ""
 
 # Google tracking id
 
-google-tracking-id: ""
+google-tracking-id: "UA-155132567-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -31,7 +31,7 @@ force-https: True
 
 lang: "en"
 author: "MrB0LTv2"
-title: "{ MrB0LTv2 - தமிழன்}"
+title: "{MrB0LTv2 - தமிழன்}"
 description: "Blog and website of Viswanathan Govindarajan, blogging mainly for tech. Opinions expressed are mine."
 keywords: "mrbolt, MrB0LTv2"
 favicon: "/img/favicon.ico"
@@ -48,7 +48,7 @@ background-img: "../img/intro-bg.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: False
+dynamic-typing: true
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
@@ -211,7 +211,6 @@ pages_list:
   Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
-  Categories: 'categories'
 
 # Exclusion list from the generated _site
 

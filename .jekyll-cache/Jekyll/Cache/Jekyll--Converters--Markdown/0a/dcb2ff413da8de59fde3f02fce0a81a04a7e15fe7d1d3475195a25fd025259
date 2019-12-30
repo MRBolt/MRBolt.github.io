@@ -1,0 +1,43 @@
+I"<p>Summary:
+This machine is easy ranked machine and exploited through metasploit module. A initial nmap scan result will shows us a vulnerable smaba service which is running on port 139.</p>
+
+<p>table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}</p>
+
+<p>td, th {
+  border: 1px solid #050505;
+  text-align: left;
+  padding: 8px;
+}</p>
+
+<p>tr:nth-child(even) {
+  background-color: #050505;
+}
+&lt;/style&gt;</p>
+
+<p>Lame</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                                                    OS:
+                                                    Linux
+                                                
+                                                
+                                                    Difficulty:
+                                                     Easy
+                                                
+                                                
+                                                    Points:
+                                                    20
+                                                
+                                                
+                                                    Release:
+                                                    14 Mar 2017
+                                                
+                                                
+                                                    IP:
+                                                    10.10.10.3
+</code></pre></div></div>
+
+:ET
