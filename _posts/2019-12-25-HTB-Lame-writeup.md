@@ -4,7 +4,7 @@ comments: true
 section-type: post
 title: HackTheBox Write-up - Lame
 category: hackthebox
-tags: [ 'samba', 'htb' ]
+tags: [ 'samba' ]
 ---
 Summary:
 This machine is easy ranked machine and exploited through metasploit module. A initial nmap scan result will shows us a vulnerable smaba service which is running on port 139.
