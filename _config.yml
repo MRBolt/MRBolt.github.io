@@ -52,9 +52,9 @@ dynamic-typing: true
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
+type-speed: 5
 start-delay: 200
-delete-delay: 5000
+delete-delay: 1500
 lines: # You can add HTML Tags in the Text
 
   - text: "Education Should be Free or Make it available Free!!"
@@ -112,7 +112,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 enable-gesture-navigation: True
 
-post-preview-words: 20
+post-preview-words: 35
 
 paginate: 5
 

@@ -1,0 +1,91 @@
+I"�<p><strong>DIGEST</strong></p>
+
+<p>An initial Nmap scan result will show us a vulnerable samba service which is running on port 139. It’s vulnerable to the “Samba username map script” vulnerability and exploited using the Metasploit module.</p>
+
+<html>
+
+<head>
+    <style>
+    b {
+  font-weight: bold;
+}
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #050505;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #050505;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="text-center">Lame</h2>
+    <!--<img src="https://www.hackthebox.eu/storage/avatars/fb2d9f98400e3c802a0d7145e125c4ff.png">         =-->
+    <p>
+        <table>
+            <tbody>
+                <tr>
+                    <img src="https://www.hackthebox.eu/storage/avatars/fb2d9f98400e3c802a0d7145e125c4ff.png" alt="" border="1" height="150" width="150" />
+                </tr>
+                <tr>
+                    <td class="text-right">OS:</td>
+                    <td>Linux</td>
+                </tr>
+                <tr>
+                    <td class="text-right">Difficulty:</td>
+                    <td> <span class="text-success bold">Easy</span></td>
+                </tr>
+                <tr>
+                    <td class="text-right">Points:</td>
+                    <td><span class="text-success">20</span></td>
+                </tr>
+                <tr>
+                    <td class="text-right">Release:</td>
+                    <td>14 Mar 2017</td>
+                </tr>
+                <tr>
+                    <td class="text-right">IP:</td>
+                    <td>10.10.10.3</td>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+</body>
+</html>
+
+<p><strong>Tools Used</strong></p>
+<html>
+<head>
+<style>
+ul.a {
+  list-style-position: outside;
+}
+
+ul.b {
+  list-style-position: inside;
+}
+</style>
+</head>
+<body>
+<ul class="a">
+  <li>Nmap</li>
+  <li>Searchsploit</li>
+  <li>Metsaploit</li>
+</ul>
+</body>
+</html>
+
+<p><strong>Initial Scan with Nmap</strong></p>
+
+<p><img src="/img/htb/lamb/lamb-nmap.png" alt="" /></p>
+:ET
