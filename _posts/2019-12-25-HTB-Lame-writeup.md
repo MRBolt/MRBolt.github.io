@@ -11,6 +11,8 @@ tags: [ 'samba' ]
 
 An initial Nmap scan result will show us a vulnerable samba service which is running on port 139. It's vulnerable to the "Samba username map script" vulnerability and exploited using both Manual and Metasploit module.
 
+![lame](../../../../img/htb/lame/lame.png)
+
 <html>
 
 <head>
@@ -43,9 +45,6 @@ An initial Nmap scan result will show us a vulnerable samba service which is run
     <p>
         <table>
             <tbody>
-                <tr>
-                    <img src="https://www.hackthebox.eu/storage/avatars/fb2d9f98400e3c802a0d7145e125c4ff.png" alt="" border=1 height=150 width=150>
-                </tr>
                 <tr>
                     <td class="text-right">OS:</td>
                     <td>Linux</td>
@@ -80,7 +79,7 @@ An initial Nmap scan result will show us a vulnerable samba service which is run
 
 **Initial Scan with Nmap:**
 
-![lame](../../../../img/htb/lame/lame-nmap.png)
+![lame-nm](../../../../img/htb/lame/lame-nmap.png)
 
 ![lame-nmap](../../../../img/htb/lame/lame-nmap-result.png)
 
