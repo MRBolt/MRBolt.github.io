@@ -41,7 +41,6 @@ An initial Nmap scan result will show us a vulnerable samba service which is run
 
 <body>
     <h2 class="text-center">Lame</h2>
-    <!--<img src="https://www.hackthebox.eu/storage/avatars/fb2d9f98400e3c802a0d7145e125c4ff.png">         =-->
     <p>
         <table>
             <tbody>
@@ -109,7 +108,7 @@ This module exploits a command execution vulnerability in Samba versions 3.0.20 
 
 ![Manual](../../../../img/htb/lame/lame-manual1.png)
 
-![Manualroot](../../../../img/htb/lame/lame-manual1.png)
+![Manualroot](../../../../img/htb/lame/lame-manual2.png)
 
 **Rate Matrix:**
 
