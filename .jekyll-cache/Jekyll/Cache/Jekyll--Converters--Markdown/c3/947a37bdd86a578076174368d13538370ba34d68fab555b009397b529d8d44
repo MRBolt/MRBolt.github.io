@@ -1,13 +1,5 @@
----
-layout: post
-comments: true
-section-type: post
-title: HackTheBox Write-up - Lame
-category: hackthebox
-tags: [ 'samba', 'htb' ]
----
-Summary:
-This machine is easy ranked machine and exploited through metasploit module. A initial nmap scan result will shows us a vulnerable smaba service which is running on port 139.
+I":<p>Summary:
+This machine is easy ranked machine and exploited through metasploit module. A initial nmap scan result will shows us a vulnerable smaba service which is running on port 139.</p>
 
 <html>
 <head>
@@ -30,14 +22,17 @@ tr:nth-child(even) {
 </style>
 </head>
 <body>
+
 <h2 class="text-center">Lame</h2>
-<!--<img src="https://www.hackthebox.eu/storage/avatars/fb2d9f98400e3c802a0d7145e125c4ff.png">         =-->   
-                                    <p>
+<img src="https://www.hackthebox.eu/storage/avatars/fb2d9f98400e3c802a0d7145e125c4ff.png" />            
+    <p>
                                         <table>
-                                                <tbody>
+                                                <body>
                                                 <tr>
-          <img src="https://www.hackthebox.eu/storage/avatars/fb2d9f98400e3c802a0d7145e125c4ff.png" alt="" border=1 height=150 width=150>
-                                                </tr>
+                                                    <td class="text-right">Name:</td>
+                                                    <td>Lame</td>
+                                                    <td><img src="https://www.hackthebox.eu/storage/avatars/fb2d9f98400e3c802a0d7145e125c4ff.png" alt="" border="4" height="100" width="100" />
+                                                &lt;/tr&gt;
                                                     <tr>
                                                         <td class="text-right">OS:</td>
                                                         <td>Linux</td>
@@ -58,9 +53,11 @@ tr:nth-child(even) {
                                                         <td class="text-right">IP:</td>
                                                         <td>10.10.10.3</td>
                                                     </tr>
-                                                </tbody>
-                                            </table>
-                                    </p>
+                                                &lt;/tbody&gt;
+                                            &lt;/table&gt;
+                                    &lt;/p&gt;
 
-</body>
-</html>
+&lt;/body&gt;
+&lt;/html&gt;
+</td></tr></body></table></p></body></html>
+:ET

@@ -1,13 +1,6 @@
----
-layout: post
-comments: true
-section-type: post
-title: HackTheBox Write-up - Lame
-category: hackthebox
-tags: [ 'samba', 'htb' ]
----
-Summary:
-This machine is easy ranked machine and exploited through metasploit module. A initial nmap scan result will shows us a vulnerable smaba service which is running on port 139.
+I"J
+<p>Summary:
+This machine is easy ranked machine and exploited through metasploit module. A initial nmap scan result will shows us a vulnerable smaba service which is running on port 139.</p>
 
 <html>
 <head>
@@ -36,7 +29,7 @@ tr:nth-child(even) {
                                         <table>
                                                 <tbody>
                                                 <tr>
-          <img src="https://www.hackthebox.eu/storage/avatars/fb2d9f98400e3c802a0d7145e125c4ff.png" alt="" border=1 height=150 width=150>
+          <img src="https://www.hackthebox.eu/storage/avatars/fb2d9f98400e3c802a0d7145e125c4ff.png" alt="" border="1" height="150" width="150" />
                                                 </tr>
                                                     <tr>
                                                         <td class="text-right">OS:</td>
@@ -64,3 +57,4 @@ tr:nth-child(even) {
 
 </body>
 </html>
+:ET
