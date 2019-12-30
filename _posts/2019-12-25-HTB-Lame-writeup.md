@@ -4,7 +4,7 @@ comments: true
 section-type: post
 title: HackTheBox Write-up - Lame
 category: hackthebox
-tags: [ 'samba', 'oscp-Like-machine' ]
+tags: [ 'samba', 'oscp-like-machine' ]
 ---
 
 **DIGEST**
