@@ -13,9 +13,7 @@ In Apache Struts RCE, A vulnerable application is not properly validating the ma
 
 **CVE-ID:** CVE-2017-5638
 
-**CVSS Vector**
-
-CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+**CVSS Vector:** CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
 
 **Disclaimer**
 
@@ -27,12 +25,14 @@ A Vulnerable Jakarta Multi parser in Apache struts is not properly validated the
 
 **Recon ways**
 
-=>1. Wapplayzer addon may help you to find the framework details.
-=>2. Check the application page source and look for endpoints with the ".action" extension.
-=>3. Collect all the URLs using burp spider and other crawling tools.
-=>4. Craft your own Malicious OGNL payload. (refer below resources)
-=>5. Or Use this script to automate the things. (<https://github.com/mazen160/struts-pwn>)
+- Wapplayzer addon may help you to find the framework and other library versions.
+- Check the application page source and look for endpoints with the ".action" extension.
+- Collect all the URLs using burp spider or other crawling tools.
+- Craft your own Malicious OGNL payload. (refer below resources)
+- Or Use this script to automate the things. (<https://github.com/mazen160/struts-pwn>)
 
+**POC**
+![struts2](../../../../img/appsec/apache-struts-2-RCE.png)
 **Resources**
 
 <https://www.synopsys.com/blogs/software-security/cve-2017-5638-apache-struts-vulnerability-explained/>
