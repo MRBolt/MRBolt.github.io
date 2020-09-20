@@ -1,0 +1,16 @@
+I"ƒ<p>DIGEST</p>
+
+<p>We always have some curiosity to get private programs on Bug bounty platforms. This IDOR Story-1 going to have a small brief about the bug which helped me to enumerate the list of private programs on one of the private bug bounty platform.</p>
+
+<p>IDOR</p>
+
+<p>IDOR is a kind of Access control vulnerability. Itâ€™s also more vulnerable as like other high severe issues. Its severity will get change based on the scenario and attack place.</p>
+
+<p>CVSS Vector String: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N</p>
+
+<p>Root Cause:</p>
+
+<p>An unprotected API endpoint without any access control validation.</p>
+
+<p>POC:</p>
+:ET

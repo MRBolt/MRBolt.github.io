@@ -1,0 +1,44 @@
+I"^	<p>DIGEST</p>
+
+<p>We always have some curiosity to get private programs on Bug bounty platforms. This IDOR Story-1 going to have a small brief about the bug which helped me to enumerate the list of private programs on one of the private bug bounty platform.</p>
+
+<p>IDOR</p>
+
+<p>IDOR is a kind of Access control vulnerability. It’s also more vulnerable as like other high severe issues. Its severity will get change based on the scenario and attack place.</p>
+
+<p>CVSS Vector String: CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N</p>
+
+<p>Root Cause:</p>
+
+<p>An unprotected API endpoint without any access control validation.</p>
+
+<p>POC:</p>
+
+<p>A platform had many different programs. When I click on any program that takes me to a different page using the below-mentioned endpoint.</p>
+
+<p>https://sub.retacted.com/api/xxx/yyy/programs/9999</p>
+
+<p>Whenever I changed that program number from “9999” to any other number, the application always took me to the custom error page.</p>
+
+<p>After enumeration, I found different API end Points which is used to retrive the data of every programs,</p>
+
+<p>https://sub.retacted.com/api/xxx/yyy/organizations/9999/logo</p>
+
+<p>Luckily this API endpoint is unprotected and allowed me to enumerate the logo of all the private and public programs and other details too ;)</p>
+
+<p>Solution:</p>
+
+<p>The authentication and authorization policies are role based, to minimize the effort required to maintain these policies.
+  The enforcement mechanism(s) should deny all access by default, requiring explicit grants to specific users and roles for access to every page.
+  If the page is involved in a workflow, check to make sure the conditions are in the proper state to allow access.
+  Default should be access denial - if user has access -&gt; then allow.
+  Avoid exposing your private object references to users whenever possible, such as primary keys or filenames.
+  Instead of sending primary keys (like code in the above scenario) in URL, better to use session to send such a kind of information.
+  This should be implemented for all the parameters used across all the pages in the application.
+  Validate any private object references extensively with an “accept known good” approach.
+  Verify authorization to all referenced objects.</p>
+
+<p>Reference:</p>
+
+<p>https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html</p>
+:ET

@@ -13,11 +13,11 @@ In Apache Struts RCE, A vulnerable application is not properly validating the ma
 
 **CVE-ID:** CVE-2017-5638
 
-**CVSS Vector:** CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+**CVSS Vector String:** CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
 
 **Disclaimer:**
 
-All my posts are focused only to educate people from my experience. It will not contain stories about how I did ;) May have a path to learn!!
+All my posts are focused only to educate people from my own experience. It will not contain stories about how I did ;) May have a path to learn!!
 
 **Root Cause:**
 
