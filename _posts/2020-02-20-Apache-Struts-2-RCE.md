@@ -25,11 +25,13 @@ A Vulnerable Jakarta Multi parser in Apache struts is not properly validated the
 
 **Recon Ways:**
 
-- Wapplayzer addon may help you to find the framework and other library versions.
-- Check the application page source and look for endpoints with the ".action" extension.
-- Collect all the URLs using burp spider or other crawling tools.
-- Craft your own Malicious OGNL payload. (refer below resources)
-- Or Use this [script](https://github.com/mazen160/struts-pwn) to automate the things.
+<ol>
+  <li>Wapplayzer addon may help you to find the framework and other library versions.</li>
+  <li>Check the application page source and look for endpoints with the ".action" extension.</li>
+  <li>Collect all the URLs using burp spider or other crawling tools.</li>
+  <li>Craft your own Malicious OGNL payload. (refer below resources)</li>
+  <li>Or Use this [script](https://github.com/mazen160/struts-pwn) to automate the things.</li>
+</ol>
 
 **POC Snapshot:**
 
