@@ -1,0 +1,40 @@
+I"�<p><strong>DIGEST</strong></p>
+
+<p>Apache Struts is a framework that uses java and It can help to develop web applications.
+In Apache Struts RCE, A vulnerable application is not properly validating the malicious HTTP request which contains IGNL expression with Malicious payload). A successful attack can lead to Remote code execution.</p>
+
+<p><strong>CVE-ID:</strong> CVE-2017-5638</p>
+
+<p><strong>CVSS Vector</strong></p>
+
+<p>CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H</p>
+
+<p><strong>Disclaimer</strong></p>
+
+<p>All my posts are focused only to educate people from my experience. It will not contain stories about how I did ;) May have a path to learn!!</p>
+
+<p><strong>Root cause</strong></p>
+
+<p>A Vulnerable Jakarta Multi parser in Apache struts is not properly validated the content-type header. So, the injected payload treated as an OGNL Expression and evaluated at the system level. An attacker can use this flaw to execute OGNL expressions that in turn execute system commands.</p>
+
+<p><strong>Recon ways</strong></p>
+
+<p>=&gt;1. Wapplayzer addon may help you to find the framework details.
+=&gt;2. Check the application page source and look for endpoints with the “.action” extension.
+=&gt;3. Collect all the URLs using burp spider and other crawling tools.
+=&gt;4. Craft your own Malicious OGNL payload.
+=&gt;5. Or Use this script to automate the things. (https://github.com/mazen160/struts-pwn)</p>
+
+<p><strong>Resources</strong></p>
+
+<p>https://www.synopsys.com/blogs/software-security/cve-2017-5638-apache-struts-vulnerability-explained/</p>
+
+<p>https://medium.com/@abhishake100/rce-via-apache-struts2-still-out-there-b15ce205aa21</p>
+
+<p>https://blog.lucideus.com/2017/12/exploiting-apache-struts2-cve-2017-5638.html</p>
+
+<p>https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5638</p>
+
+<h5><center>All Credits to contributors and Thanks for reading ❤️! </center></h5>
+<h5><center>Feel free to leave a comment 💬 below.</center></h5>
+:ET

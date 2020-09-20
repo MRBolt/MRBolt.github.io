@@ -27,21 +27,21 @@ A Vulnerable Jakarta Multi parser in Apache struts is not properly validated the
 
 **Recon ways**
 
->1. Wapplayzer addon may help you to find the framework details.
->2. Check the application page source and look for endpoints with the ".action" extension.
->3. Collect all the URLs using burp spider and other crawling tools.
->4. Craft your own Malicious OGNL payload.
->5. Or Use this script to automate the things. (https://github.com/mazen160/struts-pwn)
+=>1. Wapplayzer addon may help you to find the framework details.
+=>2. Check the application page source and look for endpoints with the ".action" extension.
+=>3. Collect all the URLs using burp spider and other crawling tools.
+=>4. Craft your own Malicious OGNL payload. (refer below resources)
+=>5. Or Use this script to automate the things. (<https://github.com/mazen160/struts-pwn>)
 
 **Resources**
 
-https://www.synopsys.com/blogs/software-security/cve-2017-5638-apache-struts-vulnerability-explained/
+<https://www.synopsys.com/blogs/software-security/cve-2017-5638-apache-struts-vulnerability-explained/>
 
-https://medium.com/@abhishake100/rce-via-apache-struts2-still-out-there-b15ce205aa21
+<https://medium.com/@abhishake100/rce-via-apache-struts2-still-out-there-b15ce205aa21>
 
-https://blog.lucideus.com/2017/12/exploiting-apache-struts2-cve-2017-5638.html
+<https://blog.lucideus.com/2017/12/exploiting-apache-struts2-cve-2017-5638.html>
 
-https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5638
+<https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5638>
 
 <h5><center>All Credits to contributors and Thanks for reading ❤️! </center></h5>
 <h5><center>Feel free to leave a comment 💬 below.</center></h5>
