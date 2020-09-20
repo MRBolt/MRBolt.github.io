@@ -1,8 +1,8 @@
-I"è<p>DIGEST</p>
+I"û<p>DIGEST</p>
 
 <p>An initial Nmap scan result will show us a vulnerable samba service which is running on port 139. Itâ€™s vulnerable to the â€œSamba username map scriptâ€ vulnerability and exploited using both Manual command and Metasploit module.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lame
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lame
 
     
         
