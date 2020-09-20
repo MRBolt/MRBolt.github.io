@@ -1,12 +1,12 @@
 ---
 layout: post
 section-type: post
-title: Title
-category: Category
-tags: [ 'tag1', 'tag2' ]
+title: Apache-Struts-2-RCE
+category: web-application-security
+tags: [ 'bugbounty', 'appsec' ]
 ---
 
-
+**DIGEST**
 csacsa
 fadfvashjf
 fasfasf
