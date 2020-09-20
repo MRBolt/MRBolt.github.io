@@ -1,0 +1,4 @@
+I"U<p><strong>DIGEST</strong></p>
+
+<p>Apache Struts is a framework that uses java. It can help to develop web applications. In Apache Struts RCE, A vulnerable application is not properly validating the malicious HTTP request which contains IGNL expression (Crafted Malicious payload). A successful attack can lead to Remote code execution.</p>
+:ET
