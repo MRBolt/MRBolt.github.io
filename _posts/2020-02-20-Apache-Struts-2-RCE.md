@@ -24,13 +24,13 @@ All my posts are focused only to educate people from my experience. It will not 
 A Vulnerable Jakarta Multi parser in Apache struts is not properly validated the content-type header. So, the injected payload treated as an OGNL Expression and evaluated at the system level. An attacker can use this flaw to execute OGNL expressions that in turn execute system commands.
 
 **Recon Ways:**
-```
+
 1. Wapplayzer addon may help you to find the framework and other library versions.
 2. Check the application page source and look for endpoints with the ".action" extension.
 3. Collect all the URLs using burp spider or other crawling tools.
 4. Craft your own Malicious OGNL payload. (refer below resources)
 5. Or Use this [script](https://github.com/mazen160/struts-pwn) to automate the things.
-```
+
 **POC Snapshot:**
 
 ![struts2](../../../../img/appsec/apache-struts-2-RCE.png)
