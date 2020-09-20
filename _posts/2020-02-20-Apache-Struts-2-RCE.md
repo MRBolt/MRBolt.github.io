@@ -30,8 +30,6 @@ A Vulnerable Jakarta Multi parser in Apache struts is not properly validated the
  <p style="text-align:left;">4. Craft your own Malicious OGNL payload and inject on "Content-Type". (refer below resources) </p>
  <p style="text-align:left;">5. Or Use this <a href="https://github.com/mazen160/struts-pwn">script</a> to automate the things. </p>
 
-5. Or Use this [script](https://github.com/mazen160/struts-pwn) to automate the things.
-
 **POC Snapshot:**
 
 ![struts2](../../../../img/appsec/apache-struts-2-RCE.png)
