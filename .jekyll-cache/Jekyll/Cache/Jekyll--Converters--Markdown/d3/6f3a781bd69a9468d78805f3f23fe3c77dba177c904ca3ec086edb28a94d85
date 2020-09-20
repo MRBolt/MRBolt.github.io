@@ -1,0 +1,28 @@
+I"t<p><strong>DIGEST</strong></p>
+
+<p>Apache Struts is a framework that uses java. It can help to develop web applications. In Apache Struts RCE, A vulnerable application is not properly validating the malicious HTTP request which contains IGNL expression (Crafted Malicious payload). A successful attack can lead to Remote code execution.</p>
+
+<p><strong>CVE-ID:</strong> CVE-2017-5638</p>
+
+<p><strong>CVSS Vector</strong></p>
+
+<p>CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H</p>
+
+<p><strong>Disclaimer</strong></p>
+
+<p>All my posts are focused only to educate people from my experience. It will not contain stories about how I did ;) May have a path to learn!!</p>
+
+<p><strong>Root cause</strong></p>
+
+<p>A Vulnerable Jakarta Multi parser in Apache struts is not properly validated the content-type header. So, the injected payload treated as an OGNL Expression and evaluated at the system level. An attacker can use this flaw to execute OGNL expressions that in turn execute system commands.</p>
+
+<p><strong>Recon ways</strong></p>
+
+<ol>
+  <li>Wapplayzer addon may can help you to find the framework details.</li>
+  <li>Check application page source and look for end points with “.action” extension.</li>
+  <li>Collect all the URLs using burp spider and other crawling tools.</li>
+  <li>Craft your own Malicious OGNL payload.</li>
+  <li>Or Use this script for automate the things.</li>
+</ol>
+:ET
